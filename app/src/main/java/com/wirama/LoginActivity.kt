@@ -97,11 +97,14 @@ class LoginActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailedLis
             startActivityForResult(intent, RC_SIGN_IN)
         })
 
-        // link to login page
+        // link to page
         binding.toRegisterPageButton.setOnClickListener {
             Log.i("ACTION", "Register activity link clicked")
             startActivity(Intent(this, RegisterActivity::class.java))
-            finish()
+        }
+        binding.toForgotPasswordPageButton.setOnClickListener {
+            Log.i("ACTION", "Forgot password activity link clicked")
+            startActivity(Intent(this, ForgotPasswordActivity::class.java))
         }
 
         // underline

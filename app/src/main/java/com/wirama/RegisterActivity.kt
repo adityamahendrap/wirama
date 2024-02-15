@@ -104,7 +104,6 @@ class RegisterActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailed
         binding.toLoginPageButton.setOnClickListener {
             Log.i("ACTION", "Login activity link clicked")
             startActivity(Intent(this, LoginActivity::class.java))
-            finish()
         }
 
         // underline
