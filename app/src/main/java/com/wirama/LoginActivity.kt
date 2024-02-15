@@ -197,7 +197,7 @@ class LoginActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailedLis
                     gotoProfile()
                 } else {
                     Log.e("AUTH", "Login with email failed: ${it.exception?.message}")
-                    Toast.makeText(this, "${it.exception?.message}}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
             }
     }

@@ -45,7 +45,7 @@ class RegisterActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailed
         binding.registerButton.setOnClickListener {
             Log.i("ACTION", "Register button clicked")
             val email = binding.emailInput.text.toString()
-            val username = binding.usernameInput.text.toString()
+//            val username = binding.usernameInput.text.toString()
             val password = binding.passwordInput.text.toString()
             val confirmPassword = binding.confirmPasswordInput.text.toString()
 
