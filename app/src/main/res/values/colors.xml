@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--general-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--component-->
+    <color name="primary">#892FE0</color>
+
+    <!--background-->
+    <color name="bgDark">#121212</color>
+
+    <!--font-->
+    <color name="fontPrimaryDark">#FFFFFFFF</color>
+    <color name="fontSecondary">#AAAA9B</color>
+</resources>

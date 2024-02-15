@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "575476223023",
+    "project_id": "wirama-app",
+    "storage_bucket": "wirama-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575476223023:android:cd60db0f0e9e2cb4bc0ada",
+        "android_client_info": {
+          "package_name": "com.wirama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575476223023-b7hvfvaidcecqvo44nj9k28mp0tp999r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wirama",
+            "certificate_hash": "ec5954ae593904d9fd87098ac5b6ba269a7fff25"
+          }
+        },
+        {
+          "client_id": "575476223023-dgff3hfloaul5aaabvvkb9h362ltfs4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqNCoDayFIlLZMWjOq6nAkdPC7rrF6oqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575476223023-dgff3hfloaul5aaabvvkb9h362ltfs4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
