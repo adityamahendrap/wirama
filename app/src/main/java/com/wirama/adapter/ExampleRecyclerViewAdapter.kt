@@ -17,7 +17,8 @@ class ExampleRecyclerViewAdapter(private var model: List<ExampleRecyclerViewMode
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExampleViewHolder {
-        val itemView: View = LayoutInflater.from(parent.context).inflate(R.layout.example_row, parent, false)
+        val itemView: View = LayoutInflater.from(parent.context)
+                            .inflate(R.layout.example_row, parent, false)
         return ExampleViewHolder((itemView))
     }
 
